@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lexend', sans-serif;
+  
 }
 
 ul {
@@ -37,10 +38,12 @@ li{
   display: flex;
   justify-content: space-between ;
   align-items: center;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
 }
 .right-header ul {
   display: flex;
-  font-size: 10px;
+  font-size: 12px;
+  font-weight: 300;
   gap:10px;
 }
 .header-bottom {
@@ -52,8 +55,7 @@ li{
 }
 
 .img {
-  border: #0059d4;
-  /* border-radius: 50%; */
+
 }
 
 .left-bottom {
@@ -61,23 +63,31 @@ li{
   flex-direction: column;
   justify-content: space-evenly;
   line-height: 2em;
+  /* font-weight: 300; */
 }
 
 .left-bottom p {
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 300;
   
+}
+
+.right-bottom {
+  /* border-radius: 10px; */
+  /* border: 2px solid #004BB5; */
 }
 
 button {
   padding: 5px 15px;
   font-size: 18px;
-  background-color: #0059d4;
+  background-color: #004BB5;
   border: 2px solid #ffffff;
   color: #fff;
   border-radius: 5px;
   align-self: self-start;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 button:hover {
@@ -125,7 +135,7 @@ button:hover {
   
 }
 .container-2 img {
-  border: #0059d4 solid 2px;
+  border: #004BB5 solid 2px;
   border-radius: 10%;
 
 }
@@ -185,6 +195,7 @@ button:hover {
   justify-content: space-between;
   background-color: cadetblue;
   border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   
   
 }
