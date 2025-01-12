@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -55,12 +57,15 @@ li{
 }
 
 .left-bottom {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   line-height: 2em;
 }
 
 .left-bottom p {
   font-size: 12px;
+  
 }
 
 button {
@@ -70,9 +75,130 @@ button {
   border : 2px solid #ffffff;
   color: #fff;
   border-radius: 5px;
+  align-self: self-start;
 }
 /* Second */
 .second {
   background-color: aliceblue;
   height : 250px;
+}
+.container-2 {
+  width:950px;
+  margin: 0 auto;
+  font-size : 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* height: 200px; */
+  
+  
+}
+
+.title {
+  flex:1;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 900; 
+}
+
+.cards {
+  width : 100px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap : 15px;
+  justify-content: center;
+  /* width: 100px; */
+  flex-wrap: wrap;
+  height:100%;
+  
+  
+}
+.container-2 img {
+  border: #0059d4 solid 2px;
+  border-radius: 10%;
+
+}
+
+.third {
+  height : 200px;
+  background-color: gainsboro;
+  
+}
+
+.container-3 {
+  width:800px;
+  margin: 0 auto;
+  height: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  
+}
+.quote-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  height: 100%;
+  
+  
+}
+.author {
+  align-self: flex-end;
+  font-weight: 400;
+  font-family : Garamond;
+  /* font-style: italic; */
+  margin-right:20px;
+}
+.quote {
+  font-style: italic;
+  font-family: Garamond;
+  font-weight: 300;
+}
+
+
+.fourth {
+  height:250px;
+  background-color:#fff;
+  display: flex;
+  align-items: center;
+
+}
+.container-4 {
+  width:950px;
+  /* outline: 2px solid black; */
+  margin:0 auto;
+  padding : 50px 150px;;
+  display: flex;
+  justify-content: space-between;
+  background-color: cadetblue;
+  border-radius: 10px;
+  
+  
+}
+.txt-1 {
+  font-weight: 500;
+  color : #f9faf8;
+  font-size: 25px;
+}
+
+.txt-2 {
+  color : #f9faf8;
+}
+
+.fifth {
+  background-color: #1f2937;
+  height :70px;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #f9faf8;
 }
